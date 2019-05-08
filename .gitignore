@@ -1,0 +1,173 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+package-lock.json
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/captures/
+android/arch/
+android/support/
+/com/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# DECO
+.deco
+
+#VSCode
+jsconfig.json
+
+# Fabric
+#
+com_crashlytics_export_strings.xml
+# BUCK
+buck-out/
+\.buckd/
+android/keystores/debug.keystore
+artifacts
+crashlytics-build.properties
+
+# General
+*.pid
+/test.result.*
+.tern-port
+
+# React-native generated assets
+/android/app/src/main/assets/index.android.bundle
+/android/app/src/main/res/**/js_*.png
+svg/out
+js/BSNCore/env/index.js
+js/BSNCore/env/tmp.js
+
+# fastlane
+ios/BSNAppHome.app.dSYM.zip
+
+# flowtype-test
+flowtype-test/index.js
+
+coverage
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+ios/Pods/Target\ Support\ Files/**/**/*.*.xcconfig
+
+# Carthage
+ios/Carthage/Checkouts
+ios/Carthage/
+ios/Pods/
+
+# SourceMap
+# Bundle artifact
+*.jsbundle
+*.jsbundle.meta
+sourceMap/sourcemap-android.js
+sourceMap/sourcemap-ios.js
+tmp/
+
+# Chaves do Android
+android/app/g1.jks
+android/app/ge.jks
+android/app/gshow.jks
+android/app/keystore.properties
+android/GooglePlayAPI_Key.json
+
+# VSCode
+.vscode
+\.dir-locals\.el
